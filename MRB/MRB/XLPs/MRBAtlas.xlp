@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="BachIcon256"/>
+			<m_ObjectName text="BachIcon256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BachIcon32"/>
+			<m_ObjectName text="BachIcon32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BachIcon45"/>
+			<m_ObjectName text="BachIcon45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BachIcon48"/>
+			<m_ObjectName text="BachIcon48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BachIcon50"/>
+			<m_ObjectName text="BachIcon50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BachIcon55"/>
+			<m_ObjectName text="BachIcon55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BachIcon64"/>
+			<m_ObjectName text="BachIcon64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BachIcon80"/>
+			<m_ObjectName text="BachIcon80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BC_BACH_BACKGROUND"/>
+			<m_ObjectName text="LEADER_BC_BACH_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BC_BACH_BG"/>
+			<m_ObjectName text="LEADER_BC_BACH_BG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BC_BACH_NEUTRAL"/>
+			<m_ObjectName text="LEADER_BC_BACH_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MerchantTownHistoricMoment"/>
+			<m_ObjectName text="MerchantTownHistoricMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MRBAtlas200"/>
+			<m_ObjectName text="MRBAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MRBAtlas22"/>
+			<m_ObjectName text="MRBAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MRBAtlas256"/>
+			<m_ObjectName text="MRBAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MRBAtlas30"/>
+			<m_ObjectName text="MRBAtlas30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MRBAtlas36"/>
+			<m_ObjectName text="MRBAtlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MRBAtlas44"/>
+			<m_ObjectName text="MRBAtlas44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MRBAtlas48"/>
+			<m_ObjectName text="MRBAtlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MRBAtlas50"/>
+			<m_ObjectName text="MRBAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MRBAtlas64"/>
+			<m_ObjectName text="MRBAtlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MRBAtlas80"/>
+			<m_ObjectName text="MRBAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WorkersHistoricMoment"/>
+			<m_ObjectName text="WorkersHistoricMoment"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
