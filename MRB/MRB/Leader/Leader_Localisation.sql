@@ -112,9 +112,9 @@ VALUES	('en_US',	'LOC_LEADER_BC_BACH_NAME',	'Bach'),
 		('en_US',	'LOC_DIPLO_DEFEAT_FROM_AI_LEADER_BC_BACH_ANY', 'We have failed, I loathe to say this but I hope your people do well and not suffer the same way we did.'),
 		-- Human is Defeated (will see this in hotseat)
 		('en_US',	'LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_BC_BACH_ANY', '{LOC_DIPLO_DEFEAT_FROM_AI_LEADER_BC_BACH_ANY}'),
-		('en_US',	'LOC_PEDIA_LEADERS_PAGE_MC_PO_NGBE_QUOTE', 'In progress'),
-		('en_US',	'LOC_PEDIA_LEADERS_PAGE_MC_PO_NGBE_TITLE', 'Bach'),
-		('en_US',	'LOC_PEDIA_LEADERS_PAGE_MC_PO_NGBE_SUBTITLE', 'Leader of the Church of Bachianity'),
+		('en_US',	'LOC_PEDIA_LEADERS_PAGE_BC_BACH_QUOTE', 'In progress'),
+		('en_US',	'LOC_PEDIA_LEADERS_PAGE_BC_BACH_TITLE', 'Bach'),
+		('en_US',	'LOC_PEDIA_LEADERS_PAGE_BC_BACH_SUBTITLE', 'Leader of the Church of Bachianity'),
 		('en_US',	'LOC_PEDIA_LEADERS_PAGE_LEADER_BC_BACH_CHAPTER_CAPSULE_BODY', 'In progress'),
 		('en_US',	'LOC_PEDIA_LEADERS_PAGE_LEADER_BC_BACH_CHAPTER_DETAILED_BODY', 'In progress'),
 		('en_US',	'LOC_PEDIA_LEADERS_PAGE_LEADER_BC_BACH_CHAPTER_HISTORY_PARA_1', 'In progress');
