@@ -82,6 +82,37 @@ SELECT	ImprovementType,	'UNIT_BC_WORKER'
 FROM	Improvement_ValidBuildUnits
 WHERE	UnitType = 'UNIT_BUILDER';
 
-/*INSERT INTO Improvement_ValidBuildUnits
+/*Moved to MRB_Monopolies_MODE.sql
+INSERT INTO Improvement_ValidBuildUnits  
 		(ImprovementType,			UnitType		)
 VALUES	('IMPROVEMENT_INDUSTRY',	'UNIT_BC_WORKER');*/
+
+--Since sailing only allow the normal builder to embark when sailing is researched (not sure why it doesn't count this as builder too but anyway) 
+--this is to provide that same thing to this unique builder as well.
+INSERT INTO TraitModifiers
+		(TraitType,							ModifierId									)
+VALUES	('TRAIT_CIVILIZATION_BC_WORKER',	'TRAIT_BC_WORKER_EMBARK'					);
+
+INSERT INTO Modifiers
+		(ModifierId,						ModifierType,								SubjectRequirementSetId	)
+VALUES	('TRAIT_BC_WORKER_EMBARK',			'MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS',	'PLAYER_HAS_SAILING'	);
+
+INSERT INTO ModifierArguments
+		(ModifierId,					Name,			Value			)
+VALUES	('TRAIT_BC_WORKER_EMBARK',		'UnitType',		'UNIT_BC_WORKER');
+
+INSERT INTO RequirementSets
+		(RequirementSetId,			RequirementSetType			)
+VALUES	('PLAYER_HAS_SAILING',		'REQUIREMENTSET_TEST_ALL'	);
+
+INSERT INTO RequirementSetRequirements
+		(RequirementSetId,			RequirementId					)	
+VALUES	('PLAYER_HAS_SAILING',		'REQUIRES_PLAYER_HAS_SAILING'	);
+
+INSERT INTO Requirements
+		(RequirementId,					RequirementType						)
+VALUES	('REQUIRES_PLAYER_HAS_SAILING',	'REQUIREMENT_PLAYER_HAS_TECHNOLOGY'	);
+
+INSERT INTO RequirementArguments
+		(RequirementId,							Name,					Value)
+VALUES	('REQUIRES_PLAYER_HAS_SAILING',			'TechnologyType',		'TECH_SAILING');
