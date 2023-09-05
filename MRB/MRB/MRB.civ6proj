@@ -105,12 +105,6 @@
     <Content Include="Leader\Leader_UA.sql">
       <SubType>Content</SubType>
     </Content>
-    <XLP Include="XLPs\LeaderFallbacks.xlp">
-      <SubType>Content</SubType>
-    </XLP>
-    <XLP Include="XLPs\MRBAtlas.xlp">
-      <SubType>Content</SubType>
-    </XLP>
     <XLP Include="Textures\BachIcon256.dds">
       <SubType>Content</SubType>
     </XLP>
@@ -165,6 +159,18 @@
     <XLP Include="Textures\FALLBACK_NEUTRAL_BACH.tex">
       <SubType>Content</SubType>
     </XLP>
+    <XLP Include="Textures\LEADER_BC_BACH_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\LEADER_BC_BACH_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\MRBAtlas.xlp">
+      <SubType>Content</SubType>
+    </XLP>
     <XLP Include="Textures\LEADER_BC_BACH_BACKGROUND.dds">
       <SubType>Content</SubType>
     </XLP>
@@ -175,12 +181,6 @@
       <SubType>Content</SubType>
     </XLP>
     <XLP Include="Textures\LEADER_BC_BACH_BG.tex">
-      <SubType>Content</SubType>
-    </XLP>
-    <XLP Include="Textures\LEADER_BC_BACH_NEUTRAL.dds">
-      <SubType>Content</SubType>
-    </XLP>
-    <XLP Include="Textures\LEADER_BC_BACH_NEUTRAL.tex">
       <SubType>Content</SubType>
     </XLP>
     <XLP Include="Textures\MerchantTownHistoricMoment.dds">

@@ -35,3 +35,35 @@ INSERT INTO ModifierArguments
 VALUES	('TRAIT_CIVILIZATION_BC_BACHIAN_WORK_ETHICS_ADJACENCY',		'YieldTypeToMirror',	'YIELD_GOLD'			),
 		('TRAIT_CIVILIZATION_BC_BACHIAN_WORK_ETHICS_ADJACENCY',		'YieldTypeToGrant',		'YIELD_PRODUCTION'		),
 		('INSTANT_TRADING_POST',									'ImmediateTradingPost',	1						);
+
+/*Testing for different mod (specifically for Agum pass mod for tepiggo, checking the yield per wonder built)
+INSERT INTO TraitModifiers
+		(TraitType,										ModifierId)
+VALUES	('TRAIT_CIVILIZATION_BC_BACHIAN_WORK_ETHICS',	'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_WONDER_BUILT');
+
+INSERT INTO Modifiers
+		(ModifierId,													ModifierType,											SubjectRequirementSetId	)
+VALUES	('MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_WONDER_BUILT',	'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER',	'NEW_WONDER_BUILT'		);
+
+INSERT INTO ModifierArguments
+		(ModifierId,													Name,				Value)
+VALUES	('MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_WONDER_BUILT',	'YieldType',		'YIELD_PRODUCTION'),
+		('MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_WONDER_BUILT',	'Amount',			100);
+
+INSERT INTO RequirementSets
+		(RequirementSetId,			RequirementSetType)
+VALUES	('NEW_WONDER_BUILT',		'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSetRequirements
+		(RequirementSetId,			RequirementId)
+VALUES	('NEW_WONDER_BUILT',		'REQUIRES_NEW_WONDER_COMPLETED');
+
+INSERT INTO Requirements
+		(RequirementId,						RequirementType)
+VALUES	('REQUIRES_NEW_WONDER_COMPLETED',	'REQUIREMENT_PLAYER_HAS_BUILDING');
+
+INSERT INTO RequirementArguments
+		(RequirementId,						Name,				Value)
+VALUES	('REQUIRES_NEW_WONDER_COMPLETED',	'BuildingType',		'BUILDING_STONEHENGE');
+--Note to self, REQUIREMENT_PLAYER_BUILT_NEW_WONDER Only work if New Frontier Pass is included as a required DLC, else use the manual check each wonder method*/
+

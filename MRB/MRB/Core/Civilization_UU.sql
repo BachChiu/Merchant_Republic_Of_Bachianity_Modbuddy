@@ -116,3 +116,28 @@ VALUES	('REQUIRES_PLAYER_HAS_SAILING',	'REQUIREMENT_PLAYER_HAS_TECHNOLOGY'	);
 INSERT INTO RequirementArguments
 		(RequirementId,							Name,					Value)
 VALUES	('REQUIRES_PLAYER_HAS_SAILING',			'TechnologyType',		'TECH_SAILING');
+
+/*TESTING for a different mod, just to check if we can slow down all units, and apply it to all civs to create an infrastructure which slow everyone except the units owned by the builder of that infrastructure.
+INSERT INTO Types
+		(Type,				Kind)
+VALUES	('ABILITY_SLOW',	'KIND_ABILITY');
+
+INSERT INTO TypeTags
+		(Type,				Tag)
+VALUES	('ABILITY_SLOW',	'CLASS_ALL_UNITS');
+
+INSERT INTO UnitAbilities
+		(Description,						Name,						UnitAbilityType)
+VALUES	('LOC_ABILITY_SLOW_DESCRIPTION',	'LOC_ABILITY_SLOW_NAME',	'ABILITY_SLOW');
+
+INSERT INTO UnitAbilityModifiers
+		(UnitAbilityType,			ModifierId)
+VALUES	('ABILITY_SLOW',			'SLOWED_MOVEMENT');
+
+INSERT INTO Modifiers
+		(ModifierId,				ModifierType)
+VALUES	('SLOWED_MOVEMENT',			'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT');
+
+INSERT INTO ModifierArguments
+		(ModifierId,				Name,			Value	)
+VALUES	('SLOWED_MOVEMENT',			'Amount',		-1		);*/
